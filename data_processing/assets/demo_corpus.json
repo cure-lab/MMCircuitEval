@@ -1,0 +1,41 @@
+{
+    "statement": "Based on the specification document for 2N2222 and 2N2222A NPN switching transistors, answer the following questions.",
+    "questions": [
+        "What is the maximum collector-emitter voltage (V_CEO) for the 2N2222A transistor? (A) 30 V (B) 40 V (C) 75 V (D) 800 mA",
+        "List the pin configuration for the NPN transistor as described in the document.",
+        "Calculate the power dissipation if the collector current is 500 mA and the collector-emitter voltage is 10 V."
+    ],
+    "images": [
+        "2N2222_page1.png",
+        "2N2222_page2.png",
+        "2N2222_page3.png"
+    ],
+    "answers": [
+        "B",
+        "1: Emitter, 2: Base, 3: Collector",
+        "5 W"
+    ],
+    "explanations": [
+        "According to the document, the maximum collector-emitter voltage V_CEO for the 2N2222A transistor is 40 V.",
+        "The document provides a pinning table showing the configuration: pin 1 is the emitter, pin 2 is the base, and pin 3 is the collector.",
+        "Power dissipation P = V * I = 10 V * 500 mA = 5 W."
+    ],
+    "question_types": [
+        "single",
+        "open",
+        "blank"
+    ],
+    "difficulties": [
+        "easy",
+        "medium",
+        "medium"
+    ],
+    "abilities": [
+        "perception",
+        "inference",
+        "computation"
+    ],
+    "ic_type": "analog",
+    "source": "datasheet",
+    "extra": "2N2222.PDF"
+}
